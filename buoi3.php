@@ -465,7 +465,7 @@ function isSubstring($string, $substring) {
    echo " không là một chuỗi con ";
   }
 }
-isSubstring("Nguyen Thi Thanh Thao", "Thao");
+isSubstring("Do Thi Thu Thao", "Thao");
 ?>
 
 
