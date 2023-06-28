@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 10px 10px 0 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header-top {
+    display: flex;
+}
+
+.logo p {
+    color: rgb(2, 113, 76);
+    font-size: 50px;
+    margin: 0;
+    padding: 10px 100px;
+}
+
+.menu {
+    display: flex;
+}
+
+.main-menu {
+    position: relative;
+    padding: 0 100px;
+}
+
+.main-menu-item {
+    display: inline;
+    margin: 30px;
+}
+
+.header-button-group {
+    display: flex;
+}
+
+.logo p{
+    color: rgb(29, 141, 103);
+    font-size: 32px;
+    margin: 0;
+}
+
+.main-menu-item{
+    list-style: none;
+    font-size: 17px;
+}
+
+.main-menu-item a{
+    text-decoration: none;
+    color: rgba(35, 31, 31, 0.502);
+    text-transform: capitalize;
+}
+
+.main-menu-item-active a{
+    color: rgb(4, 20, 34);
+}
+
+.btn {
+    color: rgba(0, 0, 0, 0.502);
+    background-color: rgb(222, 248, 242);
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.header-bottom {
+    display: flex;
+    height: 350px;
+}
+
+.banner-description{
+    padding: 0 100px;
+}
+.btn-info{
+    background: rgba(2, 132, 89, 0.8);
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn-danger{
+    background-color: #fff;
+    color: rgba(35, 31, 31, 0.502);
+    font-size: 18px;
+}
+
+.btn-warning{
+    background: rgba(17, 149, 105, 0.8);
+    color: #fff;
+}
+
+.banner-description-title{
+    font-weight: bold;
+    font-size: 40px;
+}
+.banner-description-break{
+    width: 100%;
+    border: 1px solid rgba(32, 156, 115, 0.8);
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+}
+.banner-description-content{
+    font-weight: 40px;
+    color: black;
+}
+
+.banner-image-wrap {
+    padding: 70px;
+}
+
+.banner-image-wrap-img {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    height: 350px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.credit-card {
+    top: 200px;
+    position: relative;
+    object-fit: contain;
+    width: 150px;
+    transform: rotate(45deg);
+    left: 200px;
+}
+
+.form-group {
+    position: relative;
+    object-fit: contain;
+    right: 150px;
+    bottom: 100px;
+    padding: 0 50px 100px;
+}
+
+.main {
+    background: linear-gradient(to right, rgb(222, 248, 242), #ffffff);
+    padding: 0 50px;
+}
+
+.main-text {
+    position: relative;
+    padding: 0 250px;
+    font-size: 40px;
+}
+
+.company {
+    display: flex;
+}
+
+.company-icon {
+    position: relative;
+    padding: 0 50px;
+    display: flex;
+}
+
+.campany-icon-img {
+    object-fit: contain;
+    width: 30px;
+}
+
+.introduce {
+    display: flex;
+}
+
+.introduce-text {
+    padding: 0 50px;
+}
+
+.star {
+    width: 5%;
+}
+.rating {
+    display: flex;
+}
+
+.list {
+    display: flex;
+}
+
+.list-push {
+    width: 5%;
+}
+
+.list-icon {
+    width: 5%;
+}
+
+.feature {
+    display: flex;
+    padding: 0 50px 50px;
+    align-items: baseline;
+}
+
+.feature-text {
+    margin-right: 30px;
+}
+
+.feature-content {
+    display: flex;
+    padding: 0 50px;
+}
+
+.feature-content-list {
+    margin-right: 30px;
+}
+
+.feature-img {
+    object-fit: cover;
+    width: 50%;
+}
+
+.benifit {
+    display: flex;
+    width: 500px;
+}
+
+.benifit-content {
+    position: absolute;
+    padding: 0 50px;
+}
+
+.benifit-text {
+    padding: 0 20px 20px;
+}
+
+.benifit-img {
+    position: absolute;
+    right: 50px;
+    width: 40%;
+}
+
+.benifit-des1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 600px;
+    top: 50px;
+    background-color: white;
+}
+
+.benifit-des2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    left: 950px;
+    top: 50px;
+}
+
+.benifir-img-per {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.plan {
+    padding: 100px 50px;
+}
+
+.plan-text {
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.plan-box {
+    display: flex;
+}
+
+.contact {
+    background-color: black;
+    color: #fff;
+    display: flex;
+}
+
+.contact-text {
+    position: relative;
+    text-align: center;
+    bottom: 450px;
+}
+
+.contact-info {
+    position: relative;
+    bottom: 450px;
+    margin-left: 200px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer-intro {
+    width: 500px;
+    padding: 0 50px;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-text {
+    padding:  50px;
+}
+
+.link-contact {
+    display: flex;
+}
+
+.btn-round{
+    border-radius: 50px;
+}
+
+.text-grey{
+    color: #aaa;
+}
+
+.form-control-input{
+    border: none;
+    border-bottom: 1px solid #aaa;
+}
+.btn-sm{
+    padding: 5px;
+    width: 80px;
+    height: 25px;
+    font-size: 14px;
+}
